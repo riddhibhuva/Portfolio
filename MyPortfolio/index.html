@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">John Doe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Riddhi Bhuva</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container1">
+        <img src="./assets/profile_pic.JPG" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Riddhi Bhuva</h1>
+        <!-- <p class="section__text__p2">Frontend Developer</p> -->
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Riddhi_Bhuva.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/riddhi-bhuva/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/riddhibhuva'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about_pic.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p> 1 year <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors of Technology - Information Technology<br />Masters of Engineering - Software Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lisp</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kotlin</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>(Postgres, MySQL, MongoDB, OracleDB, NoSQL)</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Developer Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitLab</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BitBucket</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p>(EC2, Lambda, Azure)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GCP</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyCharm</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IntelliJ</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Eclipse</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kubernetes</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Studio</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flutter</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTest</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fast API</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Wordpress</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Libraries</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scikit-learn</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NumPy</h3>
+                  <!-- <p>Ecperienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matplotlib</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-1.png" -->
+                <!-- alt="Project 1" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Birds Image Classification</h2>
+            <p>Addressed the issue of high costs associated with classifying bird species using deep learning techniques of Artificial
+              Intelligence utilizing three diverse datasets for model training and validation
+              • Explored Convolutional Neural Networks (CNNs) including ResNet-18, VGG-16, and MobileNetV2, comparing
+              their performance, and achieved an impressive 83% accuracy on one of the Dataset using the VGG16 model.
+            </p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Live Demo
+              </button>
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-2.png" -->
+                <!-- alt="Project 2" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">“ShopSide” – An e-Commerce Application</h2>
+            <p>Designed and developed Frontend and Backend components for a e-commerce application with various product,
+              cart, and checkout features using web scraping for data collection and Postman for backend API data and firebase
+              authorization
+              • Integrated real-time product updates and predictive features based on data analysis to create an intuitive and
+              user-friendly interface with appealing data visualization increasing the user appeal by whopping 30%
+            </p>
+            <!-- <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Live Demo
+              </button>
+            </div> -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-3.png" -->
+                <!-- alt="Project 3" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">“Happy Hands” – A Smart Dustbin</h2>
+            <p>Engineered a IoT-powered smart dustbin system that integrates proximity sensors to detect a person’s presence,
+              enabling automatic lid open and close functionality, achieving a rapid response time of under 2 seconds. This
+              real-time interaction significantly improves user convenience and minimizes contamination risk
+              • Seamlessly integrated remote monitoring of the dustbin’s status and capacity reducing maintenance costs by 25%
+              and improving operational efficiency by 20%, resulting in substantial long-term savings for waste management.
+            </p>
+             <!-- <div class="btn-container"> 
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/riddhibhuva'"
+              >
+                Live Demo
+              </button>
+             </div>  -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-3.png" -->
+                <!-- alt="Project 3" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">groove-machine</h2>
+            <p>Our hackathon project aims to develop a loop generation tool using advanced pattern recognition from existing audio samples. Through machine learning, the system analyzes rhythmic and melodic structures to identify recurring patterns and variations. Users input samples and receive dynamically generated loops that maintain the essence and style of the originals while offering fresh arrangements. This tool will streamline music creation by providing rapid access to high-quality loops tailored to users' preferences, fostering creativity and productivity in music production.
+            </p>
+            <!-- <div class="btn-container"> 
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Live Demo
+              </button>
+            </div>  -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-3.png" -->
+                <!-- alt="Project 3" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Software-Project-Management</h2>
+            <p>The project is dedicated to a case study analysis titled "Value Results, Not Just Effort" by Venkat Subramaniam, designed for a Software Project Management course. This analysis delves into Subramaniam's insights on the importance of focusing on outcomes rather than merely emphasizing effort in software project management. It explores practical strategies and methodologies to prioritize delivering value to stakeholders over mere activity. Through examining real-world scenarios and Subramaniam's recommendations, the case study aims to provide valuable lessons for project managers in effectively navigating software development projects with a results-oriented mindset.
+            </p>
+            <!-- <div class="btn-container"> 
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Live Demo
+              </button>
+            </div>  -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-3.png" -->
+                <!-- alt="Project 3" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Cardinal Health Web Scraping and Inventory Management</h2>
+            <p>This project focuses on analyzing datasets from multiple timelines/seasons. The dataset can be of MECP or their major competitors in the healthcare industry. For this, integration of web scraping technologies such as Selenium and Beautiful Soup is employed to get the product data and then creating a MySQL database. The different datasets are then analyzed to find out insights about when a certain product is getting out of stock or when the price is increasing/decreasing to enhance business intelligence. Also other than stocking, price increase/decrease, new items or delisting of items, addition/deletion of new medicinal packages are to be analyzed.
+            </p>
+            <!-- <div class="btn-container"> 
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Live Demo
+              </button>
+            </div>  -->
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img -->
+                <!-- src="./assets/project-3.png" -->
+                <!-- alt="Project 3" -->
+                <!-- class="project-img" -->
+              <!-- /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Advance programing practices</h2>
+            <p>The repository hosts an advanced programming project focused on creating an application tailored for reporters and news reports. This app offers two primary functionalities: users can search for a specific reporter, obtaining a comprehensive list of news articles associated with them, or they can search for an article, which returns the reporter's name along with a link to the report. By implementing efficient search algorithms and robust data structures, the application provides users with a seamless experience for accessing relevant news content, enhancing productivity for both reporters and news consumers.
+            </p>
+            <!-- <div class="btn-container"> 
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/riddhibhuva'"
+              >
+              Live Demo
+              </button>
+            </div>  -->
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:riddhivinodbhuva@gmail.com">riddhivinodbhuva@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/riddhi-bhuva/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Riddhi Bhuva. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
