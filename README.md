@@ -1,2 +1,2 @@
 # Portfolio
-Explore my portfolio repository housing HTML/CSS code for my personal website. Discover my skills, projects, and experiences crafted with simplicity and elegance.
+Welcome to my portfolio! This repository houses the HTML and CSS code for my personal website, showcasing my skills, projects, and experiences. Designed with a focus on simplicity and elegance, my portfolio reflects my dedication to clean coding practices and user-friendly design. Explore my work and journey through this repository, crafted with passion and attention to detail. Feedback and collaboration are always welcome!
